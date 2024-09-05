@@ -1,0 +1,42 @@
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.logo img{
+    width: 250px;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 111, 0);
+    border-bottom: 1.5px solid rgb(52, 160, 167);
+}
+
+.nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    color: rgb(52, 160, 167);
+}
+
+.nav a:active{
+    color: rgba(52, 160, 167,0.3);
+}

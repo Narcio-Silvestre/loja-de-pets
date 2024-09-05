@@ -1,0 +1,49 @@
+.animal-box{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    
+}
+
+.content span{
+    color: rgb(52, 160, 167);
+    font-weight: bold;
+}
+
+.content h2{
+    color: rgb(255, 111, 0);
+}
+
+.content span:hover{
+    text-decoration:underline;
+}
+
+
+.content {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    font-weight: bold;
+    
+}
+
+.animal-image {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.animal-image img{
+    width: 600px;
+    border-radius: 6px;
+    border: none;    
+}
+
+
