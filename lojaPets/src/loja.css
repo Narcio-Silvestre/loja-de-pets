@@ -1,9 +1,8 @@
 .animal-box{
-    margin-top: 15px;
-    margin-bottom: 10px;
+    
     display: flex;
     flex-direction: row;
-    height: 500px;
+    min-height: 40rem;
     
 }
 
@@ -45,5 +44,16 @@
     border-radius: 6px;
     border: none;    
 }
+
+
+.inputSearch {
+
+    padding: 8px;
+    border-radius: 25px;
+    border: 0 none;
+    
+}
+
+
 
 

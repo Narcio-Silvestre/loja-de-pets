@@ -1,0 +1,84 @@
+.shop-box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  min-height: 40rem;
+}
+
+.shop-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(52, 160, 167);
+}
+
+.shop-gallery {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  row-gap: 15px;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.animal-window {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: box-shadow 0.15s;
+  background-color: white;
+}
+
+.animal-window:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+.animal-im-box  {
+ 
+  position: relative;
+}
+.animal-im-box img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  
+}
+
+.animal-desc {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+  line-height: 0.675;
+}
+
+.animal-desc span {
+  color: black;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.btgallery {
+  background-color: rgba(255, 111, 0, 1);
+  border-radius: 10px;
+  border: 0px;
+  padding: 0px 10px;
+  margin: 5px;
+  font-family: cursive;
+  font-weight: 500;
+  transition: box-shadow ease 0.15s, padding ease 0.15s;
+}
+
+.btgallery:hover {
+  color: white;
+}
+
+.bt{
+  color: white;
+  background-color: red;
+  border-radius: 50px;
+  position: absolute;
+  top:0.15rem;
+  right: 0.15rem;
+}
